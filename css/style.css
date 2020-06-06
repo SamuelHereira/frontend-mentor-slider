@@ -15,7 +15,7 @@ body {
     padding: 80px 100px;
     display: flex;
     justify-content: space-between;
-    background-image: url(/images/pattern-curve.svg);
+    background-image: url(../images/pattern-curve.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
 }
@@ -30,7 +30,7 @@ body {
     flex-wrap: wrap;
     align-self: center;
     
-    background-image: url(/images/pattern-quotes.svg);
+    background-image: url(../images/pattern-quotes.svg);
     background-repeat: no-repeat;
     background-position: 70px 85px;
     background-size: 85px;
@@ -50,7 +50,7 @@ body {
 .img {
     width: 70%;
     padding: 7%;
-    background-image: url(/images/pattern-bg.svg);
+    background-image: url(../images/pattern-bg.svg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: contain;
