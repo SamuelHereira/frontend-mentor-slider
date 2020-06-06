@@ -1,0 +1,101 @@
+*, 
+*::after,
+*::before {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+.card {
+    width: 80vw;
+    height: 100vh;
+    margin: 0 auto;
+    padding: 80px 100px;
+    display: flex;
+    justify-content: space-between;
+    background-image: url(/images/pattern-curve.svg);
+    background-repeat: no-repeat;
+    background-position: left bottom;
+}
+
+.description {
+    margin-right: -100px;
+    font-size: 24px;
+    z-index: 2;
+    width: 80%;
+    padding: 15% 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-self: center;
+    
+    background-image: url(/images/pattern-quotes.svg);
+    background-repeat: no-repeat;
+    background-position: 70px 85px;
+    background-size: 85px;
+}
+
+.description-name, .description-prof {
+    font-size: 20px
+}
+
+.description-text {
+    margin-bottom: 50px;
+}
+
+.description-prof {
+    color: grey;
+}
+.img {
+    width: 70%;
+    padding: 7%;
+    background-image: url(/images/pattern-bg.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+}
+
+.img img {
+    max-width: 100%;
+    max-height: 100%;
+    margin: 0 0 0 auto;
+
+}
+
+.buttons {
+    width: 60px;
+    height: 30px;
+    padding: 0;
+    display: flex;
+    margin-top: -20px;
+    margin-left: 20px;
+}
+
+.btn {
+    width: 30px;
+    margin: 0;
+    display: inherit;
+    justify-content: center;
+    align-items: center;
+    border: none;
+    font-size: 18px;
+    color: grey;
+    font-weight: bold;
+}
+
+.prev  {
+    border-radius: 0 50px 50px 0;
+}
+
+.next {
+    border-radius: 50px 0 0 50px;
+}
+
+.btn:hover {
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
