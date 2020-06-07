@@ -126,24 +126,34 @@ body {
 
 @media screen and (max-width: 768px) {
     
+
     .card {
         width: 100vw;
-        padding: 0;
+        padding-top: 100px;
+        padding-bottom: 100px;
         display: flex;
         flex-wrap: wrap-reverse;
         justify-content: center;
+        font-weight: 300;
+        background-size: 70vw 15vh;
     }
 
     .description {
         width: 80%;
-        padding: 0;
-        margin: -40px 0 0 0 ;
+        padding: 40px 0 0 0 ;
+        margin: 70px 0 0 0 ;
         text-align: center;
+        justify-content: center;
+        background-position: top center;
     }
 
     .description-name {
-        width: 100%;
+        width: 150px;
         text-align: center;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        /* align-self: center; */
     }
 
     .img {
