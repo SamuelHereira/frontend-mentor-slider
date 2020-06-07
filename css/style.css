@@ -148,13 +148,15 @@ body {
     }
 
     .description-name {
-        width: 150px;
+        width: 100%;
         text-align: center;
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
+        flex-direction: column;
         /* align-self: center; */
     }
+
 
     .img {
         align-self: center;
