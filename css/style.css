@@ -1,11 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500;700&display=swap');
+
 *, 
 *::after,
 *::before {
     box-sizing: border-box;
 }
 
+:root {
+    --color-blue: hsl(240, 38%, 20%);
+    --color-grey-blue: hsl(240, 18%, 77%)
+}
+
 body {
     margin: 0;
+    font-family: 'Inter', sans-serif;
+    font-weight: 300;
+    color: var(--color-blue);
+    
 }
 
 .card {
@@ -37,7 +48,8 @@ body {
 }
 
 .description-name, .description-prof {
-    font-size: 20px
+    font-size: 20px;
+    font-weight: 500;
 }
 
 .description-text {
@@ -45,7 +57,7 @@ body {
 }
 
 .description-prof {
-    color: grey;
+    color: var(--color-grey-blue);
 }
 .img {
     width: 70%;
